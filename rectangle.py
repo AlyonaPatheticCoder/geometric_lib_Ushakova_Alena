@@ -60,7 +60,7 @@ class RectangleTestCase(unittest.TestCase):
         with self.assertRaises(ValueError): perimeter(3, -1)
 
     def test_area(self):
-        self.assertAlmostEqual(area(3, 4), 12)
+        self.assertAlmostEqual(area(3, 5), 12)
         self.assertEqual(area(0, 1), 0)
         self.assertEqual(area(2, 0), 0)
 
